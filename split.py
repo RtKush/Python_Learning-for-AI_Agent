@@ -21,9 +21,17 @@
 # un(['echo', '$CUSTOM_VAR'], env=env, shell=True, capture_output=True, text=True)
 # print(result.stdout)
 
+# command = "systemctl status firewalld.service"
+# command_list = ['systemctl', 'status', 'firewalld.service']
+
 # # Specify a working directory
-# result = subprocess.run(['ls', '-la'], cwd='/tmp', capture_output=True, text=True)
+# result = subprocess.run(command, shell=True, cwd='/tmp', capture_output=True, text=True)
 # print(result.stdout)
+# # Specify a working directory
+# result = subprocess.run(['ls', '/tmp'], cwd='/tmp', capture_output=True, text=True)
+# print(result.stdout)
+
+
 
 #Basic data types
 # name="kush"
@@ -31,7 +39,7 @@
 # per=89.9
 # is_ok=True
 # print(name)
-# print(roll)
+# print(roll, id(roll))
 # print(per)
 # print(is_ok)
 
@@ -105,4 +113,26 @@
 # for i in range(1,11):
 #     print(n,"*",i, " = ",i*n)
 
+
+# #Lower and Upper Case
+# str="KUSH KUMAR"
+# print(str.lower())
+# str1="kush"
+# print(str1.upper())
+
+# #remove extra space only first space
+# s="            kush"
+# print(s.strip())
+
+
+# # replace word
+# s1="I am Learning python"
+# print(s1.replace("am","was"))
+
+# #split= string ko list me todta hai
+# s2="I am Learning Python"
+# print(s2.split())
+
+# data = "apple,banana,mango"
+# print(data.split(","))
 
