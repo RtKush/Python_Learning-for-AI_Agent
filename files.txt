@@ -1,0 +1,6 @@
+total 16
+-rw-rw-r-- 1 govind govind  230 Jan 14 17:17 filessss.txt
+-rw-rw-r-- 1 govind govind    0 Jan 15 11:06 files.txt
+drwxrwxr-x 2 govind govind 4096 Jan 14 12:38 __pycache__
+-rw-rw-r-- 1 govind govind 2705 Jan 14 12:39 split.py
+-rw-rw-r-- 1 govind govind 2700 Jan 15 11:06 subpro.py
